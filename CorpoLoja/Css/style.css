@@ -6,6 +6,7 @@
     font-family: Helvetica
 }
 
+/* navBar */
 .navbar-container{
     padding: 0 2rem;
     justify-content: space-between;
@@ -15,6 +16,7 @@
     height: 80px;
 }
 
+/* Icon-LOGO */
 .icon-logo{
     display: flex;
     align-items: center;
@@ -23,7 +25,7 @@
     
 }
 
-
+/* itens da navbar */
 .navbar-items{
     display: flex;
     justify-content: center;
