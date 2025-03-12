@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: Helvetica
 }
+body{
+    background-color: #a3bde2;
+}
 
 /* navBar */
 .navbar-container{
@@ -62,7 +65,7 @@ main{
 }
 
 .slides{
-    width: 400px;
+    width: 400%;
     height: 400px;
     display: flex;
    
@@ -106,9 +109,10 @@ main{
 
 }
 
-#radio1:checked ~ .first{
+#radio1:checked~.first {
     margin-left: 0;
 }
-#radio2:checked ~ .first{
-    margin-left: -25;
+
+#radio2:checked~.first {
+    margin-left: -30%;
 }
