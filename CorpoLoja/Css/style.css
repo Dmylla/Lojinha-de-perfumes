@@ -6,8 +6,15 @@
     font-family: Helvetica
 }
 body{
-    background-color: #a3bde2;
+    background-color: #eaeded;
 }
+.container-pai{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 800px;
+    height: 1000px ;
+}
+
 
 /* navBar */
 .navbar-container{
@@ -57,34 +64,34 @@ main{
 
 
 /* slides do projeto */
-.slider{
+.slider {
     margin: 0 auto;
     width: 800px;
     height: 400px;
     overflow: hidden;
 }
 
-.slides{
+.slides {
     width: 400%;
     height: 400px;
     display: flex;
-   
+
 }
 
-.slides input{
+.slides input {
     display: none;
 }
 
-.slide{
+.slide {
     width: 25%;
     position: relative;
 }
 
-.slide img{
+.slide img {
     width: 800px;
 }
 
-.manual-navegacao{
+.manual-navegacao {
     position: absolute;
     width: 800px;
     margin-top: -40px;
@@ -92,27 +99,34 @@ main{
     justify-content: center;
 }
 
-.manual-btn{
+.manual-btn {
     border: 2px solid #fff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 
-}  
+}
 
-.manual-btn:not(:last-child){
+.manual-btn:not(:last-child) {
     margin-right: 40px;
 }
-.manual-btn:hover{
+
+.manual-btn:hover {
     background-color: #fff;
 
 }
 
-#radio1:checked~.first {
+#slide1:checked~.first {
     margin-left: 0;
 }
 
-#radio2:checked~.first {
-    margin-left: -30%;
+#slide2:checked~.first {
+    margin-left: -25%;
+}
+#slide3:checked~.first {
+    margin-left: -50%;
+}
+#slide4:checked~.first {
+    margin-left: -75%;
 }
